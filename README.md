@@ -4,13 +4,16 @@
 - Lists of these researches were composed by referring to [Awesome-Self-Supervised-Papers](https://github.com/Sungman-Cho/Awesome-Self-Supervised-Papers).
 - Welcome your contribution!
 
+<br>
 
 ## Library
 - **TensorFlow** : `tf.keras` is mainly used.
 - **PyTorch** : `pytorch_lightning` is mainly used.
 - **JAX** : soon
 
+<br>
 
+## Researches
 | From / Year | Paper | Institution | Code Reference |
 | --- | --- | --- | --- |
 | CVPR 2020 | [Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722) (MoCo v1) | Facebook AI Research | [TensorFlow](https://github.com/PaperCodeReview/MoCo-TF) [PyTorch](https://github.com/facebookresearch/moco) |
