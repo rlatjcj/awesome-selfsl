@@ -6,8 +6,8 @@
 
 
 ## Library
-- **TensorFlow** : `tf.keras` is mainly used in reproduced codes.
-- **PyTorch** : `pytorch_lightning` is mainly used in reproduced codes.
+- **TensorFlow** : `tf.keras` is mainly used.
+- **PyTorch** : `pytorch_lightning` is mainly used.
 - **JAX** : soon
 
 
