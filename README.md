@@ -1,7 +1,7 @@
 # bank-of-selfsl
 
 - This repository includes researches about self-supervised learning. Each model is organized by [TensorFlow](https://github.com/tensorflow/tensorflow), [PyTorch](https://github.com/pytorch/pytorch), and [JAX](https://github.com/google/jax) (not yet but I want). 
-- Lists of these researches were composed by referring to [Awesome-Self-Supervised-Papers](https://github.com/Sungman-Cho/Awesome-Self-Supervised-Papers).
+- Lists of these researches were composed by referring to [Paper-code-review](https://github.com/rlatjcj/Paper-code-review) and [Awesome-Self-Supervised-Papers](https://github.com/Sungman-Cho/Awesome-Self-Supervised-Papers).
 - Welcome your contribution!
 
 <br>
