@@ -155,11 +155,14 @@ class SimSiamPT(pl.LightningModule):
                 first_conv=self.first_conv, 
                 maxpool1=self.maxpool1, 
                 return_all_feature_maps=False)
-            self.online_network = SiameseArm(
-                encoder, 
-                input_dim=self.hidden_mlp, 
-                hidden_size=self.hidden_mlp, 
-                output_dim=self.feat_dim)
+        else:
+            encoder = None
+            
+        self.online_network = SiameseArm(
+            encoder, 
+            input_dim=self.hidden_mlp, 
+            hidden_size=self.hidden_mlp, 
+            output_dim=self.feat_dim)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         y, _, _ = self.online_network(x)
